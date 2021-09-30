@@ -62,7 +62,7 @@ export default function SinglePost() {
           blocks={singlePost.body}
           projectId={"qplv2mn1"}
           dataset="production"
-        />{" "}
+        />
       </article>
     </main>
   );

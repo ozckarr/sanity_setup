@@ -33,7 +33,7 @@ export default function Post() {
               postData.map((post, index) => (
                 <article key={index} className="postList">
                   <Link
-                    to={`/post/${post.slug.current}`}
+                    to={"/post/" + post.slug.current}
                     key={post.slug.current}
                   >
                     <span>
